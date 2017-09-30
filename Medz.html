@@ -22,7 +22,7 @@
         {
           width: 70%;
         }
-        .modal { width: 50% !important ; height: 70% !important}
+        .modal { width: 60% !important ; height: 70% !important}
       </style>
 
       <!--Let browser know website is optimized for mobile-->
@@ -196,7 +196,7 @@
             <br>
             <h5>18 years</h5><h5>O+</h5>
             <p>User details</p>
-            <table class="stripped">
+            <table class="striped">
               <thead>
                 <tr>
                   <th>Date</th>
@@ -305,13 +305,7 @@
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
           </div>
         </div>
-        <div id="treated" class="modal modal-fixed-footer">
-          <div class="modal-content">
-            
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Done</a>
-          </div>
-        </div>
+
         <div id="proceed" class="modal modal-fixed-footer">
           <div class="modal-content">
             <h4>Proceed with cancellation</h4>
@@ -326,5 +320,31 @@
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Proceed</a>
           </div>
         </div>
+        
+
+
+        <div id="treated" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <form style="padding:30px">
+              <div class="row">
+                <div class="input-field col s5">
+                  <input placeholder="Enter Medicine Name" id="Medicine" type="text" class="validate">
+                  <label for="Medicine">Medicine Used</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <textarea id="Remarks" class="materialize-textarea"></textarea>
+                  <label for="Remarks">Remarks</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancel</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Treated</a>
+          </div>
+        </div>
+
     </body>
 </html>
